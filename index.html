@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #222430;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #222430;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: white !important;
+        }
+
+        .nav-link {
+            color: #bbbbbb !important;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+        }
+
+        .container {
+            max-width: 900px;
+        }
+
+        .profile-card {
+            text-align: center;
+            padding: 20px;
+            background-color: #22243083;
+            border-radius: 10px;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .bio,
+        .interests,
+        .education,
+        .experience,
+        .contact {
+            background-color: #1a1a1a25;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            width: 800px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .interests i,
+        .education i {
+            margin-right: 8px;
+            color: #f8d210;
+        }
+
+        .cv-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .cv-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .profile-card p {
+            margin: 0;
+        }
+
+        .list-unstyled li::before {
+            content: url('./img/book.png');
+            margin-right: 5px;
+            display: inline-block;
+
+        }
+
+        .list-unstyled1 {
+            font-size: smaller;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- 顶部导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Academic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bio">Biography</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#internship">Internship Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+
+
+    <div class="profile-card">
+        <img src="https://bojack-bj.github.io/images/rick.jpg" class="profile-img" alt="Profile Picture">
+        <br>
+        <br>
+        <h2>Zhang Ruizhi</h2>
+        <p style="color: #999;">PhD Student in Operations Management</p>
+        <p>The Hong Kong Polytechnic University</p>
+        <br>
+        <p dir="auto">
+            <a href="mailto:your.email@example.com"><img
+                    src="https://camo.githubusercontent.com/bc97f58883c72b71f835e1e14a9c0b4ea7197fd0187408271ca1b416ff07baa8/68747470733a2f2f696d672e69636f6e73382e636f6d2f6d6174657269616c2d6f75746c696e65642f32342f4646464646462f656d61696c2e706e67"
+                    alt="Email" style="width: 30px; height: 30px; max-width: 100%;"
+                    data-canonical-src="https://img.icons8.com/material-outlined/24/FFFFFF/email.png"></a>
+            <a href="https://github.com/yourusername"><img
+                    src="https://camo.githubusercontent.com/841821d7890aec1fe2c5abb953ef739cae61fc2b172a97474d0858a8087c9830/68747470733a2f2f696d672e69636f6e73382e636f6d2f6d6174657269616c2d6f75746c696e65642f32342f4646464646462f6769746875622e706e67"
+                    alt="GitHub" style="width: 30px; height: 30px; max-width: 100%;"
+                    data-canonical-src="https://img.icons8.com/material-outlined/24/FFFFFF/github.png"></a>
+            <a href="https://www.linkedin.com/in/yourlinkedin" rel="nofollow"><img
+                    src="https://camo.githubusercontent.com/4925f71926ae9f3fcfc729df6d4f6adc3f84f35313cd1f3181db74687f6832f7/68747470733a2f2f696d672e69636f6e73382e636f6d2f6d6174657269616c2d6f75746c696e65642f32342f4646464646462f6c696e6b6564696e2e706e67"
+                    alt="LinkedIn" style="width: 30px; height: 30px; max-width: 100%;"
+                    data-canonical-src="https://img.icons8.com/material-outlined/24/FFFFFF/linkedin.png"></a>
+        </p>
+    </div>
+
+
+
+
+    <!-- Biography -->
+    <div class="bio" id="bio">
+        <h3 class="section-title">Biography</h3>
+        <p>
+            I am currently a PhD student in Operations Management at the Hong Kong Polytechnic University.
+            My current research focuses on Supply Chain Finance(SCF). Prior to that, I obtained a Master's
+            degree in Financial Engineering from the National University of Singapore and completed a
+            Bachelor's degree in Finance and Stastics from Sun Yat-sen University, where my research mainly
+            focuses on Quantitative Finance like momentum and volatility in high-frequency trading and
+            trading strategy.
+        </p>
+    </div>
+    <div class="education" id="education">
+        <h3 class="section-title">Education</h3>
+        <ul class="list-unstyled1">
+            <li>
+                <strong>PhD in Operations Management</strong>, The Hong Kong Polytechnic
+                University<br>
+                Aug. 2024 - Present<br>
+                <em>Supervisor: Prof. Amanda Wang Yulan and Dr. Wang Xiaoyu</em>
+            </li>
+            <li>
+                <strong>Master in Financial Engineering</strong>, National University of
+                Singapore<br>
+                Aug. 2023 - Jun. 2024
+            </li>
+            <li>
+                <strong>Bachelor in Finance and Statistics</strong>, Lingnan College, Sun Yat-Sen
+                University,
+                Sept. 2019 - Jun. 2023<br>
+                <em>Supervisor: Dr. Chen Xiaole and Dr. Tang Yanli</em>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="interests" id="interests">
+        <h3 class="section-title">Interests</h3>
+        <ul class="list-unstyled" style="width: 200px;margin: auto;">
+            <li>Supply Chain Finance</li>
+            <li>Game Theory</li>
+            <li>Quantitative Finance</li>
+            <li>Causal Inference</li>
+        </ul>
+    </div>
+    <div class="experience" id="internship">
+        <h3 class="section-title">Internship Experience</h3>
+        <ul class="list-unstyled1">
+            <li><i class="fas fa-briefcase"></i> <strong>Robotics Research Intern</strong> (2022.06 - 2022.09)<br>
+                <small>XYZ Robotics Lab, Netherlands</small>
+            </li>
+            <li><i class="fas fa-briefcase"></i> <strong>AI Engineer Intern</strong> (2021.07 - 2021.10)<br>
+                <small>ABC Tech Company, China</small>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contact" id="Contact">
+        <h3 class="section-title">Contact</h3>
+
+        📧Email: <a href="mailto:ruizi.zhang@connect.polyu.hk"> ruizi.zhang@connect.polyu.hk </a>
+
+
+    </div>
+
+    <footer class="text-center mt-5 p-3" style="color: #bbb;">
+        <p>Last updated: October 2023</p>
+    </footer>
+    </div> <!-- container 结束 -->
+
+</body>
+
+</html>
